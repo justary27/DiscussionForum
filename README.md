@@ -4,6 +4,10 @@
 - Create a .env file and add the following in it:
 ```env
 DJANGO_KEY=ANYTHING_YOU_WANT
+POSTGRES_DB=backend
+POSTGRES_USER=backend
+POSTGRES_PASSWORD=backend
+DEBUG=False
 ```
 - Run the following commands (Linux/OSX):
 ```shell
@@ -18,6 +22,15 @@ python manage.py runserver
 - Now you can go to the api doc link for postman and test the api.
 
 ### Setup (Dockerized):
+- Clone the repository
+- Create a .env file and add the following in it:
+```env
+DJANGO_KEY=ANYTHING_YOU_WANT
+POSTGRES_DB=backend
+POSTGRES_USER=backend
+POSTGRES_PASSWORD=backend
+DEBUG=False
+```
 - Just run the following command and you're done if of course you have
 docker installed:
 
